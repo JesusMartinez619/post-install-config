@@ -6,9 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,34 +19,21 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure roles/Departments/Teams
+- Configure Agents(workers)/Users(customers) 
+- Configure SLA
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- The first step in this section after installing osTicket I will start configuring roles/departments/teams, in the first image I configured a role for "Supreme Admin" giving this role all of the permissions available. In the second image we create the department "SysAdmins" setting it as a Top level department, meaning this department will be for Admins having "more access". In the Third picture I create a team named "Online banking".
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Screenshot 2024-12-25 210040](https://github.com/user-attachments/assets/ffdc80fd-b87e-4ed3-80c4-28080b5eb3fa) <img width="442" alt="image" src="https://github.com/user-attachments/assets/5c69c3b4-86b9-4d2a-9f16-c877277f7071" /> <img width="299" alt="image" src="https://github.com/user-attachments/assets/01b86321-f240-439f-862f-3c1e16167aab" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Second step is to configure the Agents/Users, in this first picture I configured 2 agents setting up password and level of access, one having the role of "SysAdmin/Top-level Department" and the other "Support". In the second picture I created an end-user who will be the customer that will create "Tickets".
+
+<img width="431" alt="image" src="https://github.com/user-attachments/assets/3642c927-2f7f-46c3-9c02-c84b085be322" /> <img width="436" alt="image" src="https://github.com/user-attachments/assets/d11359c9-31e4-4da3-bf21-f7a20099b3f4" />
+
+- Third step I will configure SLA/Help Topics, in this first picture I configured 3 different SLAs, (Sev-A) being a high-level severity (Sev-B) being mid-level severity (Sev-C) being low-level severity. In the second picture I configure a few "Help Topics" defining the type of issues.
+
+<img width="437" alt="image" src="https://github.com/user-attachments/assets/213ca002-bdd0-4557-8940-4b7e7c34e004" /> <img width="433" alt="image" src="https://github.com/user-attachments/assets/ae283330-e718-4129-b7e0-061396386006" />
+
