@@ -21,7 +21,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Configure roles/Departments/Teams
 - Configure Agents(workers)/Users(customers) 
-- Configure SLA
+- Configure SLA/Help Topics
 
 <h2>Configuration Steps</h2>
 
